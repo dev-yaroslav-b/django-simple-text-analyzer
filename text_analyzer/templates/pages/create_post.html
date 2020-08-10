@@ -1,0 +1,12 @@
+{% block content %}
+
+<div>
+    <h1>Input text</h1>
+    <form method="POST">{% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Save</button>
+  </form>
+</div>
+{{ form.media }}
+
+{% endblock %}

@@ -1,0 +1,20 @@
+{% load static %}
+
+{% block content %}
+<a href="{% url 'create_post' %}">Create</a>
+<table border="1px">
+    <thead>
+        <td>Word</td>
+        <td>Count</td>
+    </thead>
+{% for post in post_list %}
+  <tr>
+    <td>{{post.word}}</td>
+    <td>{{post.count}}</td>
+  </tr>
+{% endfor %}
+</table>
+<hr>
+
+
+{% endblock %}
