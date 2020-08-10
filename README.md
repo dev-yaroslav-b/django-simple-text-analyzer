@@ -1,12 +1,12 @@
-#Simple text analyzer created with Django
+# Simple text analyzer created with Django
 
-###There are two pages:
+### There are two pages:
 
 ```/``` - index page that shows you amount of each word
 
 ```/create/``` page allows you to enter some text and get it counted
 
-###Steps to install:
+### Steps to install:
 
 Clone project:
 
